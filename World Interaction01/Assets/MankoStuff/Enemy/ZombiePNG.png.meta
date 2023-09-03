@@ -1,0 +1,5393 @@
+fileFormatVersion: 2
+guid: bc239d90d7ebde348a66e045bfe1b58d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZombiePNG_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1280
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bd70d021669614e9fe1ee3333b5b21
+      internalID: 1091013945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1280
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623d87b11325dbd4ab0f12b5bf546a9e
+      internalID: -1603602642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_2
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1280
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899d84abad3d2a84c8a9195bcd891c4a
+      internalID: -1206373854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1280
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1adec5c6ea511274c9206be38be6de14
+      internalID: -476427577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1280
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c1fcb5226b96a49a14f1ce47229e03
+      internalID: 17433336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1280
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70da2b157d8d2c34796f9c35a3c9177c
+      internalID: -1748934603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_6
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 1280
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aa5ee0127f36649a2aa603a10bf51a
+      internalID: 274252686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1216
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca116196acefba242bb04da4d2f26dbd
+      internalID: -917665039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93d0bcdd7999c34b9438c81c0285cd9
+      internalID: -2015963944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_9
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1216
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d46360ca92572498a6b888abed576c
+      internalID: -109293363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_10
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1216
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bcad932521f5f4480832281a6b71c9
+      internalID: 385236326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1216
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caede9f1b90671a4d9a56fdfc041c81d
+      internalID: -415304030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_12
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1216
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7e0038f056bab40a0d322cb2c677d8
+      internalID: 2042974361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1216
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeb6a18fb9d12844af3aa025fd521d7
+      internalID: 185452444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1152
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c15da093a8b7f04d8c47faec03156b3
+      internalID: 1194764359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1152
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaef70e234dbe4d46b85736b2b5f79d8
+      internalID: 225818185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_16
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1152
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52676072777260d4fa078745d3ee94d7
+      internalID: 808206912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_17
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1152
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7268bb716b98f741a8c8e467b70f9a6
+      internalID: -1769187700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1152
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e841531a9e32e44b8ad8471f0b34901
+      internalID: -952459029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_19
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1152
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ff273a9a294c94b80bce200a96fe2b
+      internalID: 830696268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_20
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1152
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0391270c6546b1c49974823050382391
+      internalID: -973484658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_21
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1088
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c857d402fa5d446bcabd6435dbc98d
+      internalID: 1739520860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_22
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1088
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035d8e85f3a829044889187b58b6a038
+      internalID: -1655445922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_23
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1088
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e064eb80516342c41adaacfff74cc977
+      internalID: 1810397777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_24
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1088
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e9d7569b7125b4eae410ca44017816
+      internalID: -576813124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_25
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1088
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e4afe0546125340a06c7dbe9f4be24
+      internalID: -480487916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1088
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a670b9725110243834b1f9bf7ad00d
+      internalID: 155059526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_27
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1088
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367382a15bf58a9469c7dd55d34a9cdd
+      internalID: -150388911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1024
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b65c0f18eaa0343839caa2b8917b94
+      internalID: 81742589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_29
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1024
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581b9109bdf339746ab92dc7a85143eb
+      internalID: 935001454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1024
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424587ffc694ae0498c7656b2468704b
+      internalID: -1311021729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_31
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1024
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cb0b4eeb9769f40b81f26468396ff4
+      internalID: 1177221210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_32
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1024
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f9e92d99eb2c4469015d0beaef8a6c
+      internalID: 602341468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 1024
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189f53be0ef1c9e48b95f728d044275a
+      internalID: 1750986736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_34
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1024
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2599bae19f52f064badbd585024a9b3b
+      internalID: -1811627316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_35
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1024
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d60d8f938591524c9259f2215a46812
+      internalID: 431508987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 960
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698c85b57e5cc5c40a64a970badb717d
+      internalID: -975342486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_37
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 960
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e39a4d26e6d6d4c906b3720e4028aa
+      internalID: -691980105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_38
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 960
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eae75febd5fb249a64e7536e84f6b4
+      internalID: -1852056148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 960
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f482bb4db41e9f34c8386dd49207a05a
+      internalID: -1848421251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 960
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ab1add449419546940dcfc21fe9a67
+      internalID: -1977340680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_41
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 960
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5380a61318676be4a860dbc3828bd421
+      internalID: -994007270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_42
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 960
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d60f94e46814841bc6b53ad390bcaf
+      internalID: -2068080614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 960
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4b1acc3f8d81f4bb402fc8c5d2a686
+      internalID: 1208842574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 896
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e924645691b2ce44b2f3ee79ed3ea9c
+      internalID: 364188638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_45
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 896
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf196040c96e0340992db37581dc75f
+      internalID: 1248468162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_46
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 896
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f3eb9b865db2d45b1d06381069133d
+      internalID: 410541832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_47
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 897
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72bd322f52dea646884c9d04f08cab6
+      internalID: 2136549175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_48
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361d88334f3f7854ebf741f56f9752b3
+      internalID: 1716960419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 896
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e544b70ea4365649be32b5ee5ce38d7
+      internalID: 1132594449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_50
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 897
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d48ad88957aa94a8c618a1a99fd9f9
+      internalID: 597236402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_51
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 897
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2801e7f05eb5e41a121dab6ef123ec
+      internalID: -386569047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_52
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 832
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3316648bd041f23419982ab45d43667a
+      internalID: -424630350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_53
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 832
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33697f684a7520946850959ca329f54e
+      internalID: -1116002713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_54
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 832
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b0f30668c9d0245a289f38ce4c3d17
+      internalID: 367550705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 832
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c74d075d0998d40960d8b4ade3b277
+      internalID: -2108181914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_56
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 832
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 930dfd965c2a39942b9de0b345e4943d
+      internalID: -1571543234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_57
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 832
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f8015e7d7def04383233c9978e84c3
+      internalID: -1539529299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 832
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04e14ea8ed76824eb2dbdd9c3b12910
+      internalID: -1882845660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_59
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 832
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f892203f8c5bba040af6695fe16dbd7e
+      internalID: 1580310653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_60
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 768
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7403f3aa42a2cff49befc22edfa0fde0
+      internalID: -757758849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 768
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a22949c94ed8ea45991102b865a12fe
+      internalID: 617847592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_62
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 768
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd47068efaba25d4ab5234e73eec1365
+      internalID: -1465549151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_63
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 768
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae07ced3788b384dae85f40f7b6536d
+      internalID: 724137019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588fc710d77980d4ab225219c56981f7
+      internalID: -1860606878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_65
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 768
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2c6080c0fcaac499ab29ff65511f95
+      internalID: 1771052463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_66
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 768
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbfd67de44981f4f8ae9d2731fa1614
+      internalID: 573977644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_67
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 768
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a98bc17958382140ba8ca5004833f21
+      internalID: -1398293188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_68
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 768
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceb44fa919498546b3d591415fc273b
+      internalID: 1028551789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_69
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 704
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977b8b3c1246b6a4aa977518f6d52550
+      internalID: -275727127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 704
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffd195d535cded48b660b26591e82af
+      internalID: -199806936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_71
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 704
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4649253445903ff4fb8b9acd22c38687
+      internalID: -1833841583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_72
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 704
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087d412c3b50ae74baf2d4eb6c257668
+      internalID: -904913590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_73
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 704
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b45adf614763104db3028f0ffee9d43
+      internalID: -1898864692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 704
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c822fd84ad1ae9144941663d35359a10
+      internalID: 1117802625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_75
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 704
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4040e2a868d4d64a8bba069d001ba6f
+      internalID: -1947239205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 704
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367f5dc24b858a546b62bae38c28733a
+      internalID: 590614629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_77
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 704
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d29499f8d3c20469cb94582220dff6
+      internalID: 1058739047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_78
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 640
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a354841286b960248bddee0262aae88e
+      internalID: -1366099900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_79
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 640
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f5f18bdc1c21d40b6559a6282b48c6
+      internalID: -1013464886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_80
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 640
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87f094e5a2f8b949b5a635527d79c36
+      internalID: 2081688595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_81
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 640
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922141e0945123c4f91e49eaea42c625
+      internalID: 178237753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_82
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 640
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e000b7e66730c414a8a911a64f48c4b3
+      internalID: -812994762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_83
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 640
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c0879051e9c874099ef1124ab8b5b0
+      internalID: 1111041969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_84
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 640
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd1fb6b63cd4fa448f1906f91e11afb
+      internalID: -1917524778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_85
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 640
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d00e72fd46fecb459e561c8add50041
+      internalID: 307983034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_86
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 640
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeac2b2f09667b14eafb49656ef12d03
+      internalID: 469638130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 576
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f35eb9d3b7b33004784f7c1f5d7aecdc
+      internalID: 1373312438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_88
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 576
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1056762f4271b6849b7c0708fe0417ac
+      internalID: 1980693075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_89
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 576
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5790b5c56cb4db448a3755cd8c940c80
+      internalID: 775819599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_90
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 576
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaf2175eee296741bbd8e6721445d05
+      internalID: 789772090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_91
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 576
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c331a2d872626a84da4b2d7bea9fb413
+      internalID: 212279988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_92
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 576
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0973c30dd527d4ca621d1ae8833412
+      internalID: -2094582607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_93
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 576
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da844f62cad98a4abf0cc03e44b98c9
+      internalID: 129350660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_94
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 576
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0382f455adafe1441a43bdb7f4397158
+      internalID: 920555752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_95
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 576
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba379bc1118cc04393ecc918c3e038a
+      internalID: 147051284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_96
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3306742f9ecb564da6a5cd7b014932b
+      internalID: 1562904022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_97
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 512
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5479abb412f53ec45a5f84023a69f6a6
+      internalID: -1346836382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_98
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 512
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301923d9624add441808ce19a221dc69
+      internalID: 1783176246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_99
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 512
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef90514789dd80742b10cb9513f3ae1b
+      internalID: -1143478027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_100
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 512
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607a5b4972c1f9640b3c314eb99ec2ba
+      internalID: 1592690746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_101
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 512
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f294f1b0f25c2f49b88ded3d73f07a1
+      internalID: -264995100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_102
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 543
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bc8ca7cf2cc39418109a5139010341
+      internalID: -1050365458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_103
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 540
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277445b753125db4285ade469cd0b959
+      internalID: -1058893708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_104
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 448
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c372ebcc9feb054429a7f2f9435d87dc
+      internalID: 661456307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_105
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 448
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b071f7082577fc747bc98997b1735df0
+      internalID: 2087875629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_106
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 448
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17aa59228d799394ab507c4c333bee51
+      internalID: -1429903508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_107
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 448
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaec6328dd3cde24cbb7d7d9e855c87f
+      internalID: -2135858663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_108
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba679df171d7a464fa55d4c5499c732c
+      internalID: 774879263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_109
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 448
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badc0cc3bea7f6d4895cf6d5a99fe61a
+      internalID: 333621478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_110
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ce3448a336b1f840a798fab65242553
+      internalID: 1212789811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_111
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 384
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be25cf92f8a317d43bf6beba2a8c0dea
+      internalID: -899573867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_112
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 384
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9e37d28a523db4ca5a8809d1db9ad0
+      internalID: -1998922848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_113
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 384
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9702a08aa87544aa133824916a20ea
+      internalID: -1018200522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_114
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 384
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250e7c71ec6d89d4aaa5518d3611c958
+      internalID: 1168043333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_115
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 384
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a2bbf5152e2439499b7a04f3e687df3
+      internalID: -1647268639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_116
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 397
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3ba9d29f842724c8e8d513ffbb9ab4
+      internalID: 1783778341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_117
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 400
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a3303fc3f56f54e84fd4627cf018f5
+      internalID: 47460772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_118
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 397
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e654a75e247ee4cbb93863ed883445
+      internalID: -1594003340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_119
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 390
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427dfdbc3fe13fb41b4eba4b0be07505
+      internalID: 1398111218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_120
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 404
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f9de2b317ae0645802838b002e7931
+      internalID: -2053718779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_121
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 396
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9eede58ef70e64882a0b295ba2119f
+      internalID: 193179330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_122
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 320
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c504c1d065cf0f24d851c7bdac3d0b0a
+      internalID: 1111181945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_123
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 320
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb3e0c246b389646a459a4b3de818ae
+      internalID: 1672397003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_124
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 320
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d497bfe6504894c94a8ac01735dc1c
+      internalID: 1432856337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_125
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 320
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d74e336effc354990aeadaba4fc2de
+      internalID: -1908560264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_126
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 320
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c16872deb311564f85dd5cad7e64512
+      internalID: -1024535043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_127
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 320
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 821528aa16058a04cb7811f8e46c8892
+      internalID: 585377435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_128
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 285
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ca43a07719cc94aae0e1e266d18067
+      internalID: 1722964495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_129
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 284
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d15e8b0376f68243ae8f39d8b631fb3
+      internalID: -729936003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_130
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 285
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fda10a76603b764ab93cf6cf2ed5634
+      internalID: -1170148424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_131
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 285
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ef3a06eb806eb34b845eed910800447
+      internalID: 132642346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_132
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 283
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951f64e4bea5e2d41bcc3264308a255c
+      internalID: -972302088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_133
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 279
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160231096bc2fea448070ca681cf8b23
+      internalID: 1349355207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_134
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 279
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42abd7244ed46b54ea213457acbb6634
+      internalID: -1235349620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_135
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 276
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb509c7d8326cc549b128f8b11b7001a
+      internalID: -1615642965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_136
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 276
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c3a732bf13e024b85b752df25d1f8b
+      internalID: -1658587899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_137
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 283
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed0db054b17bda43833ed7355a65496
+      internalID: 1991603986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_138
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 285
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f979b15b1be0c1e4fa88004389835800
+      internalID: 318016265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_139
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 285
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d18c0ff32c0e24e8d5bc03a47ded1f
+      internalID: 1862289573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_140
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 285
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11cf02d07581bf44aa772d403f47549d
+      internalID: -1117999877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_141
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 270
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1289e8fde1fdc7d46a1ad66aa8a16f9e
+      internalID: 216147703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_142
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 256
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474e12262fc860d438ed3dba2169633d
+      internalID: 413352043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_143
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 270
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7ab347994251b43b9fa1bead827383
+      internalID: 183983467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_144
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 272
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf5713cbe9762943b437073246c0042
+      internalID: 1640307018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_145
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 273
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191f74d7f1a5cd44b87efed47ccb7155
+      internalID: -512188070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_146
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 273
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c353bfb8dd91744a4c69118b38c4ab
+      internalID: 1560022024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_147
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 272
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000ec4b7f815ed7488c1798096ac11cb
+      internalID: -1763686362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_148
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 272
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d82c4bc52dfaa0548a12a1c8265a21e0
+      internalID: -1849161015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_149
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 272
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d722ae6cd8654934a85a1f533031d120
+      internalID: -649902475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_150
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187bd7b7172616b45b3d2068748417fc
+      internalID: -1730801566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_151
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 256
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f217c5bd75895074d92d678e31efd5d9
+      internalID: -1650850058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_152
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 256
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d199695999cb3c24fb07cd97762c64a4
+      internalID: -1656717772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_153
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 256
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa2749024bce994db903074319d3e79
+      internalID: -1572932631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_154
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 256
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d67dcd91dd1dd84993c04a862dc518b
+      internalID: 1951704429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_155
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 256
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a92475707d7bdb4890b39482163f750
+      internalID: 457133477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_156
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 256
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f6c93257390cd41b523cbb6e39ad18
+      internalID: 404355548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_157
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 256
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ff93e4a32e0a94ca6786e87130f6b3
+      internalID: -1762032286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_158
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 256
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d01ae54e9a57a4ba5757e9d2d2d093
+      internalID: -319629197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_159
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 256
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30485e14821b36478d2ec42a5dbd041
+      internalID: 195418428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_160
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 256
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c6aa168303aa545be1fc7fe3616c22
+      internalID: -833658529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_161
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 256
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b3168f9c74aeb4bb481d09faa2ca5e
+      internalID: -82967189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_162
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894929b200171384f8d9f8388a747d4a
+      internalID: 1745827011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_163
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6785e4829f5c5044a3a5a50a6e959a6
+      internalID: -1707501728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_164
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a9b0e300b03a841b68232db940afd8
+      internalID: 1995595715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_165
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc26958387f9e44a9c29c94a3b35521
+      internalID: 260514275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_166
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43f3660660dcbe4f8ac8dc4e6f4f7d9
+      internalID: -666698051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_167
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 226
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bc4d4cd8378e2458cb5b9e50501e80
+      internalID: -52200406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_168
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 206
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38aa5cdf92c93474abedd8df914742db
+      internalID: -199173499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_169
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd5635bdda70ac48aadd4690b6cf074
+      internalID: 1394010906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_170
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 206
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4d2d27d7b44b547af4911ada1dae3e
+      internalID: 1761250830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_171
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92975e0a2ff3024abea1ac26c5afa04
+      internalID: 718932450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_172
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322edf23aecbc1d4db8e2c001c713e04
+      internalID: -1995985499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_173
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 214
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8781e6540ae5b4243887eb435fb191d9
+      internalID: 673520490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_174
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 206
+        width: 19
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab71505592901234bb1c7d4609a688b4
+      internalID: -1459091772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_175
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 209
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d192174e8fae5040beea7ad3a7c8f68
+      internalID: 449768277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_176
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 211
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f64fe21e2681254398c9b4599d3a52e
+      internalID: 718770549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_177
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 217
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868d86f0f7e2d0244b646bf49686eb60
+      internalID: 1823068442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_178
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 217
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ecd6c57e446144f94a310fe635b5fa
+      internalID: -211871032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_179
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 206
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83418b989ed365488cbb4ba9cab1715
+      internalID: -2066822715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_180
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 217
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb224be4e152d70408020ec958794d54
+      internalID: 186594444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_181
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 217
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259c08274d797d64994ab3235a01fdf3
+      internalID: 1947351126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_182
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 217
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0426f7e3182fe42b43e0bde96224b4
+      internalID: -708008513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_183
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 217
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c39c7096b01ae4e95382190d0410ea
+      internalID: -223003518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_184
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 217
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8248faaefea467d43b3102c23634412d
+      internalID: -1113565045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_185
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 207
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310d6999b49417f459f6cd687eadda66
+      internalID: 1925327266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_186
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 192
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c09cbbc939143408b24fe078e3be3c
+      internalID: 1546262904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_187
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096e0185461173e45be47a09b19b45a1
+      internalID: 864771398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_188
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 192
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e26024c1e921ab47b7a4e7336bef96b
+      internalID: 434287080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_189
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 192
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77485332873e10438b36d8ac0b2c10e
+      internalID: 1397850206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_190
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 192
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3604db7ff18b9bf4ebd9fdd2eadf5f86
+      internalID: -180783136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_191
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042450dfc73b56b4394efa6d330c5e71
+      internalID: 917946784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_192
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 29
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e926271a6a4da4ba34d2e10f3d1359
+      internalID: -1044227334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_193
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 192
+        width: 31
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e45399da9302d45b254db7b6526357
+      internalID: 377881770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_194
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 192
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46547effa9a3cd04a813221fb3891223
+      internalID: 1593604791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_195
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 192
+        width: 34
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbbce7f6cad34a46b9b39c1ad695170
+      internalID: 410407313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_196
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 192
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abef56a6384d0284c8d318adee740029
+      internalID: -1758510573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_197
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 192
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59538c42c295df345a2b5f75d3817904
+      internalID: 493664817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_198
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 192
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c6c0a45b8f0664987356ebdf8681d6
+      internalID: 869304983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_199
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39d7eb52f19deb4da80ffc51b8e5c06
+      internalID: 1174828024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_200
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c925ece53556a6a4f8f97964ef2efdb7
+      internalID: 675897970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_201
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4f4ae666c69fb4f90925f328c6aaba
+      internalID: 1128682351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_202
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a75e2f459ad1e44b9dd20ca62b0a99
+      internalID: -64870370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_203
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 128
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2b2518a3acc814abc0992edc0a69d9
+      internalID: -1508760133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_204
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 150
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6e7169e0f0f1e47a7a1e96f15ad079
+      internalID: 1051803980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_205
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 153
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95ade3c58707454987e80502a1c0dec
+      internalID: 1469534990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_206
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 152
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafc1d8b9caa0c5429458b446fe71b65
+      internalID: 554273521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_207
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 153
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48622a95efea4ce41936fdb012919d52
+      internalID: 718342294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_208
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 128
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9842ab05f25084ab32bc3d32e566f8
+      internalID: 1437426652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_209
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 128
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582df124d545d9148aca92cdeba85610
+      internalID: -251825078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_210
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 128
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7527b267ab7764282fab7f23b8cb81
+      internalID: 1162181496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_211
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 128
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49718087e2431d14d81ab72364c634d5
+      internalID: 875140773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_212
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 146
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c57217b1dc32c42b6347f5116e4a60
+      internalID: 784896833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_213
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 128
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82a29426314a1f40ac7678136e2c029
+      internalID: -1386712834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_214
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 128
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86da22586881f6d439bf54a12f7b160b
+      internalID: -1833198893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_215
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 128
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b0bb4649bd35845a1721066ed45a5d
+      internalID: 733593129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_216
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 128
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249c407e705624542aad04c429d59ad0
+      internalID: -1595706931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_217
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bfc8a94f16a8949bd6dbac459d45cf
+      internalID: 1071851096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_218
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 64
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6aa74c0a60bf74a8fa185eb35c78c1
+      internalID: -1211167443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_219
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcaaeed891bccb44b07bc4252b05cdc
+      internalID: 1003340553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_220
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 64
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdc8fe8e5e411649abc631f1a923d00
+      internalID: 1367199679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_221
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bf803e4c334cc4bb6f7f9b24b330c2
+      internalID: -340573195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_222
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 64
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39449c378968a24f807d6a7047cbf5b
+      internalID: -2103827718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_223
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 89
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d17b5e0f3b1c9488b16f2c86611e22
+      internalID: -1592771643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_224
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 64
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622d714b34546c24e96ccd3699d1e5c4
+      internalID: 8674802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_225
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 64
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e936b5bb29b504c8902aa683f43a0b
+      internalID: 1528597164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_226
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 64
+        width: 35
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a309f5361ea8f984f8f116369128c163
+      internalID: 2035989889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_227
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 64
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97903a5238783841b6c03bc359fc878
+      internalID: 2086101515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_228
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 64
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f36abe25044447b8d94f79f74ad84
+      internalID: 211655892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_229
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 64
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2773772b41d5894da4f7b490703739a
+      internalID: 2056178996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_230
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 64
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051488c8a32d0a54fb6323c62a758190
+      internalID: -769603877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_231
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993438b3b4c41c04d999cdb52fd7c478
+      internalID: -128451747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_232
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05fa923f4b50834fa2fa0043b220293
+      internalID: 472073406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_233
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 35
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25aae1de1474e84ba95fec2ae75e945
+      internalID: 15411242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_234
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e97337401f9c64785f5efb126239c4
+      internalID: -253406257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_235
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96169483804faa2409465abf7cd61fae
+      internalID: 102994258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombiePNG_236
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10c0e2306c30d34d9d96fa7d0f5e717
+      internalID: 1297047718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ZombiePNG_0: 1091013945
+      ZombiePNG_1: -1603602642
+      ZombiePNG_10: 385236326
+      ZombiePNG_100: 1592690746
+      ZombiePNG_101: -264995100
+      ZombiePNG_102: -1050365458
+      ZombiePNG_103: -1058893708
+      ZombiePNG_104: 661456307
+      ZombiePNG_105: 2087875629
+      ZombiePNG_106: -1429903508
+      ZombiePNG_107: -2135858663
+      ZombiePNG_108: 774879263
+      ZombiePNG_109: 333621478
+      ZombiePNG_11: -415304030
+      ZombiePNG_110: 1212789811
+      ZombiePNG_111: -899573867
+      ZombiePNG_112: -1998922848
+      ZombiePNG_113: -1018200522
+      ZombiePNG_114: 1168043333
+      ZombiePNG_115: -1647268639
+      ZombiePNG_116: 1783778341
+      ZombiePNG_117: 47460772
+      ZombiePNG_118: -1594003340
+      ZombiePNG_119: 1398111218
+      ZombiePNG_12: 2042974361
+      ZombiePNG_120: -2053718779
+      ZombiePNG_121: 193179330
+      ZombiePNG_122: 1111181945
+      ZombiePNG_123: 1672397003
+      ZombiePNG_124: 1432856337
+      ZombiePNG_125: -1908560264
+      ZombiePNG_126: -1024535043
+      ZombiePNG_127: 585377435
+      ZombiePNG_128: 1722964495
+      ZombiePNG_129: -729936003
+      ZombiePNG_13: 185452444
+      ZombiePNG_130: -1170148424
+      ZombiePNG_131: 132642346
+      ZombiePNG_132: -972302088
+      ZombiePNG_133: 1349355207
+      ZombiePNG_134: -1235349620
+      ZombiePNG_135: -1615642965
+      ZombiePNG_136: -1658587899
+      ZombiePNG_137: 1991603986
+      ZombiePNG_138: 318016265
+      ZombiePNG_139: 1862289573
+      ZombiePNG_14: 1194764359
+      ZombiePNG_140: -1117999877
+      ZombiePNG_141: 216147703
+      ZombiePNG_142: 413352043
+      ZombiePNG_143: 183983467
+      ZombiePNG_144: 1640307018
+      ZombiePNG_145: -512188070
+      ZombiePNG_146: 1560022024
+      ZombiePNG_147: -1763686362
+      ZombiePNG_148: -1849161015
+      ZombiePNG_149: -649902475
+      ZombiePNG_15: 225818185
+      ZombiePNG_150: -1730801566
+      ZombiePNG_151: -1650850058
+      ZombiePNG_152: -1656717772
+      ZombiePNG_153: -1572932631
+      ZombiePNG_154: 1951704429
+      ZombiePNG_155: 457133477
+      ZombiePNG_156: 404355548
+      ZombiePNG_157: -1762032286
+      ZombiePNG_158: -319629197
+      ZombiePNG_159: 195418428
+      ZombiePNG_16: 808206912
+      ZombiePNG_160: -833658529
+      ZombiePNG_161: -82967189
+      ZombiePNG_162: 1745827011
+      ZombiePNG_163: -1707501728
+      ZombiePNG_164: 1995595715
+      ZombiePNG_165: 260514275
+      ZombiePNG_166: -666698051
+      ZombiePNG_167: -52200406
+      ZombiePNG_168: -199173499
+      ZombiePNG_169: 1394010906
+      ZombiePNG_17: -1769187700
+      ZombiePNG_170: 1761250830
+      ZombiePNG_171: 718932450
+      ZombiePNG_172: -1995985499
+      ZombiePNG_173: 673520490
+      ZombiePNG_174: -1459091772
+      ZombiePNG_175: 449768277
+      ZombiePNG_176: 718770549
+      ZombiePNG_177: 1823068442
+      ZombiePNG_178: -211871032
+      ZombiePNG_179: -2066822715
+      ZombiePNG_18: -952459029
+      ZombiePNG_180: 186594444
+      ZombiePNG_181: 1947351126
+      ZombiePNG_182: -708008513
+      ZombiePNG_183: -223003518
+      ZombiePNG_184: -1113565045
+      ZombiePNG_185: 1925327266
+      ZombiePNG_186: 1546262904
+      ZombiePNG_187: 864771398
+      ZombiePNG_188: 434287080
+      ZombiePNG_189: 1397850206
+      ZombiePNG_19: 830696268
+      ZombiePNG_190: -180783136
+      ZombiePNG_191: 917946784
+      ZombiePNG_192: -1044227334
+      ZombiePNG_193: 377881770
+      ZombiePNG_194: 1593604791
+      ZombiePNG_195: 410407313
+      ZombiePNG_196: -1758510573
+      ZombiePNG_197: 493664817
+      ZombiePNG_198: 869304983
+      ZombiePNG_199: 1174828024
+      ZombiePNG_2: -1206373854
+      ZombiePNG_20: -973484658
+      ZombiePNG_200: 675897970
+      ZombiePNG_201: 1128682351
+      ZombiePNG_202: -64870370
+      ZombiePNG_203: -1508760133
+      ZombiePNG_204: 1051803980
+      ZombiePNG_205: 1469534990
+      ZombiePNG_206: 554273521
+      ZombiePNG_207: 718342294
+      ZombiePNG_208: 1437426652
+      ZombiePNG_209: -251825078
+      ZombiePNG_21: 1739520860
+      ZombiePNG_210: 1162181496
+      ZombiePNG_211: 875140773
+      ZombiePNG_212: 784896833
+      ZombiePNG_213: -1386712834
+      ZombiePNG_214: -1833198893
+      ZombiePNG_215: 733593129
+      ZombiePNG_216: -1595706931
+      ZombiePNG_217: 1071851096
+      ZombiePNG_218: -1211167443
+      ZombiePNG_219: 1003340553
+      ZombiePNG_22: -1655445922
+      ZombiePNG_220: 1367199679
+      ZombiePNG_221: -340573195
+      ZombiePNG_222: -2103827718
+      ZombiePNG_223: -1592771643
+      ZombiePNG_224: 8674802
+      ZombiePNG_225: 1528597164
+      ZombiePNG_226: 2035989889
+      ZombiePNG_227: 2086101515
+      ZombiePNG_228: 211655892
+      ZombiePNG_229: 2056178996
+      ZombiePNG_23: 1810397777
+      ZombiePNG_230: -769603877
+      ZombiePNG_231: -128451747
+      ZombiePNG_232: 472073406
+      ZombiePNG_233: 15411242
+      ZombiePNG_234: -253406257
+      ZombiePNG_235: 102994258
+      ZombiePNG_236: 1297047718
+      ZombiePNG_24: -576813124
+      ZombiePNG_25: -480487916
+      ZombiePNG_26: 155059526
+      ZombiePNG_27: -150388911
+      ZombiePNG_28: 81742589
+      ZombiePNG_29: 935001454
+      ZombiePNG_3: -476427577
+      ZombiePNG_30: -1311021729
+      ZombiePNG_31: 1177221210
+      ZombiePNG_32: 602341468
+      ZombiePNG_33: 1750986736
+      ZombiePNG_34: -1811627316
+      ZombiePNG_35: 431508987
+      ZombiePNG_36: -975342486
+      ZombiePNG_37: -691980105
+      ZombiePNG_38: -1852056148
+      ZombiePNG_39: -1848421251
+      ZombiePNG_4: 17433336
+      ZombiePNG_40: -1977340680
+      ZombiePNG_41: -994007270
+      ZombiePNG_42: -2068080614
+      ZombiePNG_43: 1208842574
+      ZombiePNG_44: 364188638
+      ZombiePNG_45: 1248468162
+      ZombiePNG_46: 410541832
+      ZombiePNG_47: 2136549175
+      ZombiePNG_48: 1716960419
+      ZombiePNG_49: 1132594449
+      ZombiePNG_5: -1748934603
+      ZombiePNG_50: 597236402
+      ZombiePNG_51: -386569047
+      ZombiePNG_52: -424630350
+      ZombiePNG_53: -1116002713
+      ZombiePNG_54: 367550705
+      ZombiePNG_55: -2108181914
+      ZombiePNG_56: -1571543234
+      ZombiePNG_57: -1539529299
+      ZombiePNG_58: -1882845660
+      ZombiePNG_59: 1580310653
+      ZombiePNG_6: 274252686
+      ZombiePNG_60: -757758849
+      ZombiePNG_61: 617847592
+      ZombiePNG_62: -1465549151
+      ZombiePNG_63: 724137019
+      ZombiePNG_64: -1860606878
+      ZombiePNG_65: 1771052463
+      ZombiePNG_66: 573977644
+      ZombiePNG_67: -1398293188
+      ZombiePNG_68: 1028551789
+      ZombiePNG_69: -275727127
+      ZombiePNG_7: -917665039
+      ZombiePNG_70: -199806936
+      ZombiePNG_71: -1833841583
+      ZombiePNG_72: -904913590
+      ZombiePNG_73: -1898864692
+      ZombiePNG_74: 1117802625
+      ZombiePNG_75: -1947239205
+      ZombiePNG_76: 590614629
+      ZombiePNG_77: 1058739047
+      ZombiePNG_78: -1366099900
+      ZombiePNG_79: -1013464886
+      ZombiePNG_8: -2015963944
+      ZombiePNG_80: 2081688595
+      ZombiePNG_81: 178237753
+      ZombiePNG_82: -812994762
+      ZombiePNG_83: 1111041969
+      ZombiePNG_84: -1917524778
+      ZombiePNG_85: 307983034
+      ZombiePNG_86: 469638130
+      ZombiePNG_87: 1373312438
+      ZombiePNG_88: 1980693075
+      ZombiePNG_89: 775819599
+      ZombiePNG_9: -109293363
+      ZombiePNG_90: 789772090
+      ZombiePNG_91: 212279988
+      ZombiePNG_92: -2094582607
+      ZombiePNG_93: 129350660
+      ZombiePNG_94: 920555752
+      ZombiePNG_95: 147051284
+      ZombiePNG_96: 1562904022
+      ZombiePNG_97: -1346836382
+      ZombiePNG_98: 1783176246
+      ZombiePNG_99: -1143478027
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
