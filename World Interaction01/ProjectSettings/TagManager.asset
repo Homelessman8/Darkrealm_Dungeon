@@ -52,3 +52,6 @@ TagManager:
   - name: Character
     uniqueID: 3980534363
     locked: 0
+  - name: Game Status
+    uniqueID: 3011124853
+    locked: 0
