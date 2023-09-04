@@ -8,6 +8,7 @@ public class ZombieAutoAtk : MonoBehaviour
     public float speed;               // Speed at which the zombie moves.
     public float distanceBetween;     // Minimum distance to start moving towards the player.
 
+    private Animator anim;
     private float distance;           // Distance between the zombie and the player.
 
     // Start is called before the first frame update
@@ -38,6 +39,46 @@ public class ZombieAutoAtk : MonoBehaviour
 
             // Rotate the zombie to face the player based on the calculated angle.
             //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+        }
+
+
+        //Animation for Zombie Movement
+
+        if(direction.x > 0f)
+        {
+            anim.SetBool("MoveRight", true);
+            //anim.SetBool("MoveLeft", false);
+            //anim.SetBool("MoveFront", false);
+            //anim.SetBool("MoveBack", false);
+            //anim.SetBool("IdleFront", false);
+        }
+        else if (direction.x < 0f)
+        {
+            //anim.SetBool("MoveRight", false);
+            anim.SetBool("MoveLeft", true);
+            //anim.SetBool("MoveFront", false);
+            //anim.SetBool("MoveBack", false);
+            //anim.SetBool("IdleFront", false);
+        }
+        else if (direction.y < 0f)
+        {
+            //anim.SetBool("MoveRight", false);
+            //anim.SetBool("MoveLeft", false);
+            anim.SetBool("MoveFront", true);
+            //anim.SetBool("MoveBack", false);
+            //anim.SetBool("IdleFront", false);
+        }
+        else if (direction.y > 0f)
+        {
+            //anim.SetBool("MoveRight", false);
+            //anim.SetBool("MoveLeft", false);
+            //anim.SetBool("MoveFront", false);
+            anim.SetBool("MoveBack", true);
+            //anim.SetBool("IdleFront", false);
+        }
+        else
+        {
+            anim.SetBool("IdleFront", true);
         }
     }
 }
