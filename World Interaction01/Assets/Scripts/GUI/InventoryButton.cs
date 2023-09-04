@@ -1,57 +1,57 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UI;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
+//using UnityEngine.EventSystems;
+//using UnityEngine.UI;
 
-public class InventoryButton : MonoBehaviour, IPointerClickHandler 
-{
-    [SerializeField] Image icon;
-    [SerializeField] Text text;
-    [SerializeField] Image highlight;
+//public class InventoryButton : MonoBehaviour, IPointerClickHandler 
+//{
+//    [SerializeField] Image icon;
+//    [SerializeField] Text text;
+//    [SerializeField] Image highlight;
 
-    int myIndex;
+//    int myIndex;
 
-    public void SetIndex(int index)
-    {
-        myIndex = index;
-    }
+//    public void SetIndex(int index)
+//    {
+//        myIndex = index;
+//    }
 
-    public void Set(ItemSlot slot)
-    {
-        icon.gameObject.SetActive(true);
-        icon.sprite = slot.item.icon;
+//    public void Set(ItemSlot slot)
+//    {
+//        icon.gameObject.SetActive(true);
+//        icon.sprite = slot.item.icon;
 
-        if (slot.item.stackable == true)
-        {
-            text.gameObject.SetActive(true);
-            text.text = slot.count.ToString();
-        }
-        else
-        {
-            text.gameObject.SetActive(false);
-        }
-    }
+//        if (slot.item.stackable == true)
+//        {
+//            text.gameObject.SetActive(true);
+//            text.text = slot.count.ToString();
+//        }
+//        else
+//        {
+//            text.gameObject.SetActive(false);
+//        }
+//    }
 
-    public void Clean()
-    {
-        icon.sprite = null;
-        icon.gameObject.SetActive(false);
+//    public void Clean()
+//    {
+//        icon.sprite = null;
+//        icon.gameObject.SetActive(false);
 
-        text.gameObject.SetActive(false);
-    }
+//        text.gameObject.SetActive(false);
+//    }
 
-   //IPointerClick fires up every time you click on an object
-   //When we press this button, we want to send the item slot associated with this button to the drag and drop
-    public void OnPointerClick(PointerEventData eventData)
-    {
-        ItemPanel itemPanel = transform.parent.GetComponent<ItemPanel>();
-        itemPanel.OnClick(myIndex);
-    }
+//   //IPointerClick fires up every time you click on an object
+//   //When we press this button, we want to send the item slot associated with this button to the drag and drop
+//    public void OnPointerClick(PointerEventData eventData)
+//    {
+//        //ItemPanel itemPanel = transform.parent.GetComponent<ItemPanel>();
+//        itemPanel.OnClick(myIndex);
+//    }
 
-    //Using bool to set our HighlightImage active 
-    public void Highlight(bool b)
-    {
-        highlight.gameObject.SetActive(b);
-    }
-}
+//    //Using bool to set our HighlightImage active 
+//    public void Highlight(bool b)
+//    {
+//        highlight.gameObject.SetActive(b);
+//    }
+//}
