@@ -25,7 +25,7 @@ public class ZombieAutoAtk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("this id x and y pos:" + defaultPos.x + defaultPos.y);
+        Debug.Log("this id x and y pos:" + defaultPos.x + defaultPos.y );
         // Calculate the distance between the zombie and the player.
         distance = Vector2.Distance(transform.position, player.transform.position);
 
