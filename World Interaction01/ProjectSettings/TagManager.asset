@@ -7,6 +7,8 @@ TagManager:
   - ground
   - Borders
   - LavaBorder
+  - Coin
+  - Weapon
   layers:
   - Default
   - TransparentFX
@@ -55,4 +57,7 @@ TagManager:
     locked: 0
   - name: Game Status
     uniqueID: 3011124853
+    locked: 0
+  - name: Menu
+    uniqueID: 3841783563
     locked: 0
