@@ -13149,6 +13149,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 202954521960629222, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 370.7526
+      objectReference: {fileID: 0}
+    - target: {fileID: 202954521960629222, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 237.37628
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641498416033312209, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641498416033312209, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: ace6f4ddb43368b40b93d4677fcb6daa, type: 2}
+    - target: {fileID: 1641498416033312209, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -5247435954530500709, guid: ace6f4ddb43368b40b93d4677fcb6daa, type: 2}
+    - target: {fileID: 1641498416033312209, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1641498416033312209, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5934584171019970224, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -13233,9 +13261,17 @@ PrefabInstance:
       propertyPath: m_FontData.m_Font
       value: 
       objectReference: {fileID: 12800000, guid: f6de720daa298a749b5e29e891665967, type: 3}
+    - target: {fileID: 7907367892000259916, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8837783655470257401, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 9010160293242509235, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
