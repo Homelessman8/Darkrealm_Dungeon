@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemCollector : MonoBehaviour
 {
@@ -11,7 +12,7 @@ public class ItemCollector : MonoBehaviour
     public bool weaponEquipped;
     Animator animator;
 
-    [SerializeField] private Text coinText;
+    [SerializeField] private TextMeshProUGUI coinText;
 
     void Awake()
     {
