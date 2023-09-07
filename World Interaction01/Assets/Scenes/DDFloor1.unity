@@ -13442,9 +13442,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD
       objectReference: {fileID: 0}
+    - target: {fileID: 9084141302048866655, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 6880671903124737616, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
+    - {fileID: 9010160293242509235, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3661369296200901763, guid: 1be84ca16a00e634b94cd0fcaaf7750f, type: 3}
       insertIndex: 1
@@ -15629,7 +15634,7 @@ GameObject:
   - component: {fileID: 905729332}
   - component: {fileID: 905729334}
   - component: {fileID: 905729333}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15652,7 +15657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 108}
+  m_AnchoredPosition: {x: 14, y: 189}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905729333
@@ -15677,15 +15682,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 20
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ec4249c5b84d22341a8d22921b1596e2, type: 2}
+  m_sharedMaterial: {fileID: -6992956123517548008, guid: ec4249c5b84d22341a8d22921b1596e2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278252804
+  m_fontColor: {r: 0.017433178, g: 0.9622642, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -15702,8 +15707,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 3
-  m_fontSizeBase: 3
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18958,13 +18963,13 @@ GameObject:
   - component: {fileID: 1633944193}
   - component: {fileID: 1633944192}
   - component: {fileID: 1633944191}
-  m_Layer: 7
+  m_Layer: 5
   m_Name: HealthBarPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1633944190
 RectTransform:
   m_ObjectHideFlags: 0
@@ -19046,7 +19051,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -314432933
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!1001 &1636094297
 PrefabInstance:
@@ -31617,6 +31622,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1551953088639970229, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1551953088639970229, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123030674598204526, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 643
+      objectReference: {fileID: 0}
+    - target: {fileID: 2123030674598204526, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 2704104142514071816, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.699
@@ -31657,18 +31678,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2855577206883648916, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3339136420480995742, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
       propertyPath: m_Camera
       value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 3339136420480995742, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4449021443248745844, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4449021443248745844, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: health
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641794240191831322, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_text
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641794240191831322, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_fontSize
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7641794240191831322, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 7781513339093493688, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
       propertyPath: m_Name
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7863039212663164384, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8252817136318489028, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 429708460}
+    - target: {fileID: 8978595463970261815, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -642.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 8978595463970261815, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 20.76
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

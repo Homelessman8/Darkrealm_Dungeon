@@ -11,6 +11,11 @@ public class Enemy : MonoBehaviour
 
     private Animator anim;
 
+    private void Start()
+    {
+        healthBar.text = health.ToString();
+    }
+
     public void TakeDamage(int damage)
     {
         health -= damage;
