@@ -6,8 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class characterController2D : MonoBehaviour
 {
-
-    Rigidbody2D rigidbody2D;
+    private new Rigidbody2D rigidbody2D;
     [SerializeField] float speed = 2f;
     Vector2 motionVector;
     public Vector2 lastMotionVector;

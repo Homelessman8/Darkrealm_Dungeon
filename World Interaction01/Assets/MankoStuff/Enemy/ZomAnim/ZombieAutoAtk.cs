@@ -9,7 +9,8 @@ public class ZombieAutoAtk : MonoBehaviour
     public float distanceBetween;     // Minimum distance to start moving towards the player.
     public Animator anim;
 
-
+    private Vector2 directionV;
+    private bool IsInRange;
     private Vector2 defaultPos;
     private float distance;           // Distance between the zombie and the player.
 
@@ -25,81 +26,33 @@ public class ZombieAutoAtk : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("this id x and y pos:" + defaultPos.x + defaultPos.y );
+        //Debug.Log("this id x and y pos:" + defaultPos.x + defaultPos.y );
         // Calculate the distance between the zombie and the player.
         distance = Vector2.Distance(transform.position, player.transform.position);
 
-        // Calculate the direction vector from the zombie to the player.
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();  // Normalize the vector to get a unit vector.
-
-        // Calculate the angle in degrees based on the direction vector.
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
+        
         // Check if the player is within the specified distance.
         if (distance < distanceBetween)
         {
             // Move the zombie towards the player with the specified speed.
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
+            // Calculate the direction vector from the zombie to the player.
+            directionV = player.transform.position - transform.position;
+            directionV.Normalize();  // Normalize the vector to get a unit vector.
 
-            // Rotate the zombie to face the player based on the calculated angle.
-            //transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+            // Calculate the angle in degrees based on the direction vector.
+            float angle = Mathf.Atan2(directionV.y, directionV.x) * Mathf.Rad2Deg;
+            anim.SetBool("Idle", false);
+            
+
         }
         else if(distance>distanceBetween)
         {
-            
-            anim.SetBool("IdleFront", true);
+            directionV = Vector2.zero;
+            anim.SetBool("Idle", true);
         }
+        anim.SetFloat("DirectAnim", directionV.x);
 
-
-        //Animation for Zombie Movement
-
-        if(direction.x > 0f)
-        {
-            anim.SetBool("MoveRight", true);
-            anim.SetBool("MoveLeft", false);
-            anim.SetBool("MoveFront", false);
-            anim.SetBool("MoveBack", false);
-            anim.SetBool("IdleFront", false);
-            Debug.Log("This is the direction X" + direction.x);
-            Debug.Log("MoveRight" + anim.GetBool("MoveRight"));
-            Debug.Log("MoveLeft" + anim.GetBool("MoveLeft"));
-            Debug.Log("MoveFront" + anim.GetBool("MoveFront"));
-            Debug.Log("MoveBack" + anim.GetBool("MoveBack"));
-        }
-        else if (direction.x < 0f)
-        {
-            anim.SetBool("MoveRight", false);
-            anim.SetBool("MoveLeft", true);
-            anim.SetBool("MoveFront", false);
-            anim.SetBool("MoveBack", false);
-            anim.SetBool("IdleFront", false);
-        }
-        else if (direction.y < 0f)
-        {
-            anim.SetBool("MoveRight", false);
-            anim.SetBool("MoveLeft", false);
-            anim.SetBool("MoveFront", true);
-            anim.SetBool("MoveBack", false);
-            anim.SetBool("IdleFront", false);
-            Debug.Log("This is the direction Y" + direction.y);
-            Debug.Log("MoveRight" + anim.GetBool("MoveRight"));
-            Debug.Log("MoveLeft" + anim.GetBool("MoveLeft"));
-            Debug.Log("MoveFront" + anim.GetBool("MoveFront"));
-            Debug.Log("MoveBack" + anim.GetBool("MoveBack"));
-        }
-    
-        else if (direction.y > 0f)
-        {
-            anim.SetBool("MoveRight", false);
-            anim.SetBool("MoveLeft", false);
-            anim.SetBool("MoveFront", false);
-            anim.SetBool("MoveBack", true);
-            anim.SetBool("IdleFront", false);
-        }
-        else
-        {
-            anim.SetBool("IdleFront", true);
-        }
+        
     }
 }
