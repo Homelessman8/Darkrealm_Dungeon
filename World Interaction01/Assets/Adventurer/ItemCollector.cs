@@ -44,5 +44,10 @@ public class ItemCollector : MonoBehaviour
                 animator.SetBool("weaponEquipped", weaponEquipped);
             }
         }
+
+        if (collision.gameObject.CompareTag("LavaBorder"))//if we are colliding with a coin
+        {
+            Debug.Log("floor is Lava");
+        }
     }
 }
