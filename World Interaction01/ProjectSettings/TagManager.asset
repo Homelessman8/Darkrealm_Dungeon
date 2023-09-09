@@ -11,6 +11,8 @@ TagManager:
   - Weapon
   - Enemy
   - EndGame
+  - Heart
+  - Light
   layers:
   - Default
   - TransparentFX
