@@ -13697,7 +13697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9606926a18dd73e4f8a3c48ea2fee24e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startTimeBetweenAttack: 0
+  startTimeBetweenAttack: 0.5
   attackPos: {fileID: 8046451}
   whatIsEnemies:
     serializedVersion: 2
@@ -30477,6 +30477,17 @@ MonoBehaviour:
   attackCooldown: 2
   attackDamage: 1
   GameOverUI: {fileID: 872231160}
+--- !u!114 &1808914469 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4449021443248745844, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+  m_PrefabInstance: {fileID: 8093057284718178974}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808914455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf71c97a6a34ff74287948ad2a6f31ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1850473980
 GameObject:
   m_ObjectHideFlags: 0
@@ -32601,6 +32612,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8252817136318489028, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
+      propertyPath: eH
+      value: 
+      objectReference: {fileID: 1808914469}
     - target: {fileID: 8252817136318489028, guid: 4fe200c086895194aaad8e51fa9f3b0f, type: 3}
       propertyPath: player
       value: 
