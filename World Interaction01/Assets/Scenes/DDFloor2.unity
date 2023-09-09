@@ -861,7 +861,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kokopoop
+  m_text: Koko
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec4249c5b84d22341a8d22921b1596e2, type: 2}
   m_sharedMaterial: {fileID: -6992956123517548008, guid: ec4249c5b84d22341a8d22921b1596e2, type: 2}
@@ -1331,7 +1331,7 @@ GameObject:
   - component: {fileID: 1828001154}
   - component: {fileID: 1828001155}
   m_Layer: 0
-  m_Name: KokoPoop
+  m_Name: Koko
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
