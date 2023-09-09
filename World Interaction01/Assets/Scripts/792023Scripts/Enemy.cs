@@ -20,14 +20,22 @@ public class Enemy : MonoBehaviour
     {
         health -= damage;
         Debug.Log("damage TAKEN");
-        healthBar.text = health.ToString();
-        // if zombie health reaches 0, die
-        if (health <= 0)
+        if (health >= 0)
         {
-            //anim.SetBool("isDefeated", true); //bool isDefeated set to true in the animator
-            //anim.SetTrigger("isDead");
-            Die();
+            healthBar.text = health.ToString();
+            // if zombie health reaches 0, die
+            if (health <= 0)
+            {
+                //anim.SetBool("isDefeated", true); //bool isDefeated set to true in the animator
+                //anim.SetTrigger("isDead");
+                Die();
+            }
         }
+        else
+        {
+            health = 0;
+        }
+
     }
     private void Die()
     {

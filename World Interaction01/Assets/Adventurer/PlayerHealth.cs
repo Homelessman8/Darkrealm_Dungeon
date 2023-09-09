@@ -7,7 +7,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public int playerHealth;
     //public float speed;
-    [SerializeField] private TextMeshProUGUI healthBar;
+    [SerializeField] public TextMeshProUGUI healthBar;
     public GameObject GameOverUI;
 
     // Start is called before the first frame update
