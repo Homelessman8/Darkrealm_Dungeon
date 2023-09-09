@@ -13,42 +13,42 @@ public class Sign : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        // Initially, hide the dialog box.
+        dialogBox.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) //check if action key is pressed when the player is in range ( )
+        if (playerInRange)
         {
-            if (dialogBox.activeInHierarchy)
-            {
-                dialogBox.SetActive(false);                
-            }
-            else
-            {
-                dialogBox.SetActive(true);
-                dialogText.text = dialog;
-            }
+            // If the player is in range, show the dialog box and set the text.
+            dialogBox.SetActive(true);
+            dialogText.text = dialog;
+        }
+        else
+        {
+            // If the player is out of range, hide the dialog box.
+            dialogBox.SetActive(false);
         }
     }
-
-    //check whether player collides with collision box
+    // Check whether the player collides with the collision box.
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             playerInRange = true;
         }
     }
 
-    //check whether player exits collision box
+    // Check whether the player exits the collision box.
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            dialogBox.SetActive(false);
         }
     }
+
 }
+
