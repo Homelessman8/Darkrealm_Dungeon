@@ -5,10 +5,10 @@ using UnityEngine.UI;
 
 public class Sign : MonoBehaviour
 {
-    public GameObject dialogBox; //reference the dialog box 
-    public Text dialogText; //reference a string that we want the dialog box to display
-    public string dialog;
-    public bool playerInRange; //say whether or not dialog box should be active 
+    public GameObject dialogBox;  // Reference to the dialog box GameObject.
+    public Text dialogText;       // Reference to the Text component for displaying dialog text.
+    public string dialog;         // The dialog text to be displayed.
+    public bool playerInRange;    // Indicates whether or not the player is in range to trigger the dialog.
 
     // Start is called before the first frame update
     void Start()
@@ -32,12 +32,13 @@ public class Sign : MonoBehaviour
             dialogBox.SetActive(false);
         }
     }
+
     // Check whether the player collides with the collision box.
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = true;
+            playerInRange = true; // Set playerInRange to true when the player enters the trigger zone.
         }
     }
 
@@ -46,10 +47,7 @@ public class Sign : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInRange = false;
+            playerInRange = false; // Set playerInRange to false when the player exits the trigger zone.
         }
     }
 }
-
-
-

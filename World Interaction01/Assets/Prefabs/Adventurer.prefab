@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: 46684293848582199}
   - component: {fileID: 5941219402548956153}
   - component: {fileID: 4270977594809013969}
-  - component: {fileID: 953812956764382023}
   - component: {fileID: 5043430566352518791}
   - component: {fileID: 4131325929304818246}
   m_Layer: 0
@@ -300,21 +299,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.46, y: 0.46}
   m_EdgeRadius: 0
---- !u!114 &953812956764382023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4319789469611046727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62b07a53239554b4db999f9258ac6feb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon: 0
-  weaponEquipped: 0
-  coinText: {fileID: 0}
 --- !u!114 &5043430566352518791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,6 +334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weapon: 0
   weaponEquipped: 1
+  pH: {fileID: 8811261636345690805}
   coinText: {fileID: 0}
 --- !u!1 &7507150424565098445
 GameObject:

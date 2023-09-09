@@ -4,40 +4,32 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    private float timeBetweenAttack; //prevent spamming attacks
-    public float startTimeBetweenAttack;
+    private float timeBetweenAttack;     // Cooldown timer to prevent spamming attacks.
+    public float startTimeBetweenAttack; // Initial time between attacks.
 
-    public Transform attackPos;//position of circle which detects enemies
-    public LayerMask whatIsEnemies; //looks for enemies on the layer
-    public float attackRange; //range of attack
-    public int damage;
+    public Transform attackPos;          // Position where the attack detects enemies.
+    public LayerMask whatIsEnemies;      // Layer mask to filter which objects are considered enemies.
+    public float attackRange;            // Range of the player's attack.
+    public int damage;                   // Damage dealt to enemies.
 
-    public ItemCollector iC; //inherit from ItemCollector Script to read weaponEquipped
-    public Animator animator;
+    public ItemCollector iC;             // Reference to the ItemCollector script to check if a weapon is equipped.
+    public Animator animator;            // Reference to the Animator component for animations.
 
     // Update is called once per frame
     void Update()
     {
-        if(timeBetweenAttack <= 0)
+        if (timeBetweenAttack <= 0)
         {
-            //then I can attack
-            //if(Input.GetKeyDown(KeyCode.Mouse0) && iC.weaponEquipped == true) //attack key replace with left click
-            //{
-            //    Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies); //check for enemies inside a certain radius
-            //    for (int i = 0; i < enemiesToDamage.Length; i++) //look for enemies within the circle
-            //    {
-            //        enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
-            //    }
-            //}
-
-            //trial 1 for bug: zombie still taking damage x2 when no weapon is equipped
-            if(Input.GetKeyDown(KeyCode.Mouse0))
+            // If the cooldown time has passed, the player can attack.
+            if (Input.GetKeyDown(KeyCode.Mouse0))
             {
                 Attack();
                 if (iC.weapon != 0)
                 {
-                    Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies); //check for enemies inside a certain radius
-                    for (int i = 0; i < enemiesToDamage.Length; i++) //look for enemies within the circle
+                    Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(attackPos.position, attackRange, whatIsEnemies);
+                    // Check for enemies inside a certain radius.
+
+                    for (int i = 0; i < enemiesToDamage.Length; i++)
                     {
                         enemiesToDamage[i].GetComponent<Enemy>().TakeDamage(damage);
                         Attack();
@@ -50,24 +42,27 @@ public class PlayerAttack : MonoBehaviour
             }
             else
             {
-               return;
+                return; // No attack input detected, so do nothing.
             }
-            timeBetweenAttack = startTimeBetweenAttack;
+
+            timeBetweenAttack = startTimeBetweenAttack; // Reset the attack cooldown.
         }
         else
         {
-            timeBetweenAttack -= Time.deltaTime;
+            timeBetweenAttack -= Time.deltaTime; // Decrease the cooldown timer.
         }
     }
+
+    // Visualize the attack range and shape in the Unity Editor.
     void OnDrawGizmosSelected()
     {
-        //visualize range and shape of the player's attack
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPos.position, attackRange);
     }
+
     void Attack()
     {
-        //play an attack animation
+        // Trigger the attack animation.
         animator.SetTrigger("attack");
     }
 }
