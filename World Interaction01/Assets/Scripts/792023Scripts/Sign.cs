@@ -19,7 +19,7 @@ public class Sign : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) //check if action key is pressed when the player is in range
+        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) //check if action key is pressed when the player is in range ( )
         {
             if (dialogBox.activeInHierarchy)
             {
